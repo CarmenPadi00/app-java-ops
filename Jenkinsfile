@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/CarmenPadi00', branch: 'Jenkinsfile'
+                git url: 'https://github.com/CarmenPadi00/app-java.git', branch: 'Jenkinsfile'
             }
         }
 
